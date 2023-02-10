@@ -8,7 +8,7 @@ Built with React.
 
 #### new **Income**
 
-```
+```http
   when
   who
   how much
@@ -20,7 +20,7 @@ Built with React.
 
 #### new **Expense**
 
-```
+```http
   when
   who
   how much
@@ -51,7 +51,7 @@ Built with React.
 | `id`      | `string` |  |
 
 
-#### User Management (Access)
+#### **Access** (User Management)
 
 ```
 Administrator (System Managing including new User, delete User, new Payment Method ...)
