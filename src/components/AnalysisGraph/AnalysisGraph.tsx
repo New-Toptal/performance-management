@@ -1,3 +1,5 @@
+import "./AnalysisGraph.css";
+
 export default () => {
     return (
         <>

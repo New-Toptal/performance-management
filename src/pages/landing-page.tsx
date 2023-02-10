@@ -1,4 +1,4 @@
-import { Row, Col } from "antd";
+import { Row, Col, Divider } from "antd";
 import AnalysisGraph from "src/components/AnalysisGraph";
 import AnalysisTable from "src/components/AnalysisTable";
 import FlasSwitch from "../@flas/core/FlasSwitch";
@@ -9,12 +9,12 @@ export default () => {
     return (
         <>
             <Row>
-                <Col>
+                <Col span={6}>
                     <FlasTree />
                 </Col>
-                <Col>
+                <Col span={18}>
                     <Row>
-                        <Col span={2} offset={2}>
+                        <Col span={2} offset={16}>
                             <FlasSwitch />
                         </Col>
                     </Row>

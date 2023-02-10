@@ -1,5 +1,6 @@
 import { Tree } from "antd";
 import { DataNode, TreeProps } from "antd/es/tree";
+import "./FlasTree.css";
 
 const treeData: DataNode[] = [
     {
@@ -58,14 +59,12 @@ export default () => {
     }
     return (
         <>
-            <div className="flas-tree">
-                <Tree
-                    showLine
-                    defaultExpandedKeys={["0-0-0"]}
-                    onSelect={onSelect}
-                    treeData={treeData}
-                />
-            </div>
+            <Tree className="flas-tree"
+                showLine
+                defaultExpandedKeys={["0-0-0"]}
+                onSelect={onSelect}
+                treeData={treeData}
+            />
         </>
     );
 }

@@ -1,4 +1,5 @@
 .flas-switch {
+    display: block;
     cursor: pointer;
     width: 150px;
     height: 50px;
