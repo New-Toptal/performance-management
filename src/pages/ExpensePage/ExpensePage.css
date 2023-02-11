@@ -1,0 +1,4 @@
+.expense-page {
+    display: grid;
+    grid-template-columns: auto auto;
+}

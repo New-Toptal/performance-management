@@ -1,8 +1,9 @@
 import { Row, Col } from "antd";
-import AnalysisGraph from "src/components/AnalysisGraph";
+import AnalysisGraph from "../../components/AnalysisGraph";
 import AnalysisTable from "src/components/AnalysisTable";
-import FlasSwitch from "../@flas/core/FlasSwitch";
-import FlasTree from "../@flas/core/FlasTree";
+import FlasSwitch from "../../@flas/core/FlasSwitch";
+import FlasTree from "../../@flas/core/FlasTree";
+import "./AnalysisPage.css";
 
 
 export default () => {

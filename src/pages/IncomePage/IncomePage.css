@@ -1,0 +1,8 @@
+.income-page {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.income-page p {
+    padding-left: 50px;
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import "./AnalysisTable.css"
 
 export default () => {
     return (
         <>
-            <div className="analysis-graph">
+            <div className="analysis-table">
 
             </div>
         </>
