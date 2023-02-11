@@ -1,0 +1,8 @@
+.header *{
+    display: flex;
+}
+
+.temp {
+    width: max-content;
+    margin-left: auto;
+}

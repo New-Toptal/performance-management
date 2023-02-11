@@ -1,0 +1,27 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.layout-left-navbar {
+    flex: 20% 0;
+    background-color: lightgrey;
+}
+
+.layout-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.layout-header,
+.layout-footer {
+    flex: 10% 0;
+    background-color: gray;
+}
+
+.layout-content {
+    flex-grow: 1;
+}
