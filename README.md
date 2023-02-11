@@ -8,7 +8,7 @@ Built with React.
 
 #### new **Income**
 
-```http
+```
   when
   who
   how much
@@ -20,7 +20,7 @@ Built with React.
 
 #### new **Expense**
 
-```http
+```
   when
   who
   how much
